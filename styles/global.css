@@ -10,8 +10,11 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   
-  width: 1440px;
-  height: 2844px;
+ 
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 h1,
