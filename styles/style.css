@@ -1,6 +1,14 @@
 /* место для вашего кода */
 
-
+.content-section {
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+  }
 
 
 /* Header */
@@ -12,11 +20,9 @@
 a {
     text-underline-offset: 5px
 }
-body {
 
-  width: 1440px;
-  height: 2844px;
-}
+
+
 .header {
     width: 1340px;
     height: 109px;
