@@ -132,7 +132,7 @@
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100px; /* 100px */
+  line-height: 100px;
   letter-spacing: 30px;
   text-transform: uppercase;
   display: block;
@@ -149,13 +149,13 @@
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100px; /* 100px */
+  line-height: 100px;
   letter-spacing: 60px;
   text-transform: uppercase;
   display: block;
   text-align: right;
   padding-top: 20px;
-  margin-right: -10px;
+
   position: relative;
 
   z-index: 1;
@@ -182,7 +182,8 @@
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+  gap: 83px;
 
   z-index: 2;
 }
@@ -212,7 +213,6 @@
   word-spacing: 17px;
   z-index: 6;
   margin-top: 147px;
-  margin-left: 422px;
 }
 
 /* Lots */
@@ -222,8 +222,8 @@
 
   margin-top: 180px;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .lots__heading {
@@ -236,31 +236,35 @@
   text-transform: uppercase;
   flex-wrap: wrap;
 
-  margin-left: 90px;
+  margin-left: 40px;
   margin-bottom: 27px;
 }
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-decoration: none;
   list-style: none;
 }
 
 .card {
-  width: 430px;
-  min-height: 450px;
+  width: 100%;
+  height: 100%;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
+.lots__card-list-item {
+  width: 430px;
+  min-height: 450px;
+}
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
-  margin-left: 50px;
 }
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
@@ -269,7 +273,6 @@
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: contain;
-  margin-right: 50px;
 }
 
 .card__title {
@@ -316,7 +319,7 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 30px;
-  margin-left: 90px;
+  margin-left: 40px;
   display: block;
   text-decoration: underline;
 }
@@ -324,7 +327,7 @@
 .about {
   display: grid;
   grid-template-columns: 430px 2fr;
-
+  padding-right: 50px;
   flex-shrink: 0;
   column-gap: 25px;
 
