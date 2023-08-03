@@ -90,23 +90,20 @@
 
 .cover {
   position: relative;
-  
-  padding-top: 163px;
-  
-  flex-shrink: 0;
-  
 
-  
+  padding-top: 163px;
+
+  flex-shrink: 0;
+
   background-image: url(../images/cover.jpg);
 
   background-size: cover;
   background-position: 0 780px;
-  
+
   display: flex;
   flex-direction: column;
   z-index: 1;
 }
-
 
 .overlay {
   opacity: 0.6;
@@ -119,34 +116,25 @@
 
 .aligned-text {
   color: #fff;
-  font-family: Raleway, sans-serif;
-  color: #FFF;
+
   font-family: Raleway;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115px; 
+  line-height: 115px;
 
   letter-spacing: 30px;
   text-transform: uppercase;
   display: block;
   margin-bottom: 20px;
   text-align: left;
- 
-  
-  
+
   padding-left: 50px;
   position: relative;
   z-index: 1;
-
-  
 }
 
-
 .aligned-text_center {
-  color: #fff;
-
-  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -154,13 +142,12 @@
   letter-spacing: 30px;
   text-transform: uppercase;
   display: block;
-  
+
   text-align: center;
   position: relative;
- text-align: center;
- padding-right: 50px;
- z-index: 1;
- 
+
+  padding-right: 50px;
+  z-index: 1;
 }
 .aligned-text_right {
   color: #fff;
@@ -170,18 +157,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 100px;
-  letter-spacing: 60px;
+  letter-spacing: 50px;
   text-transform: uppercase;
   display: block;
   text-align: right;
-  
-  margin-right: -10px;
-  padding-top: -70px;
+
   position: relative;
 
   z-index: 1;
-  
-  letter-spacing: 60px;
 }
 
 .letter-spacing-extended-no {
@@ -192,7 +175,7 @@
 }
 
 .letter-spacing-extended-ad {
-  letter-spacing: 30px;
+  letter-spacing: 33px;
 }
 
 .cover__description {
@@ -202,7 +185,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 127.273% */
+  line-height: 28px;
   text-transform: uppercase;
   display: flex;
   justify-content: right;
@@ -210,7 +193,7 @@
   align-items: center;
   margin-top: 117px;
   margin-bottom: 50px;
-  
+
   z-index: 2;
 }
 
@@ -236,7 +219,6 @@
 .cover__description-text {
   word-spacing: 17px;
   z-index: 6;
-  
 }
 
 /* Lots */
@@ -415,6 +397,7 @@
 }
 /* Footer */
 .footer {
+  margin-bottom: 90px;
   flex-shrink: 0;
   margin-top: 180px;
   margin-right: 50px;
@@ -474,7 +457,6 @@
 }
 .footer__social-list-item {
   list-style: none;
-  
 }
 
 .footer__social-icon {
