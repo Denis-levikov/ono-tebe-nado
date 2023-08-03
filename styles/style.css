@@ -1,6 +1,8 @@
 /* место для вашего кода */
 
-
+* {
+  outline: 1px solid red;
+}
 .content-section {
   box-sizing: border-box;
   max-width: 1440px;
@@ -88,14 +90,18 @@
 
 .cover {
   position: relative;
-  padding-top: 175px;
-  padding-bottom: 50px;
+  
+  padding-top: 163px;
+  
   flex-shrink: 0;
   
-  background-image: url(../images/cover.jpg);
+
   
+  background-image: url(../images/cover.jpg);
+
   background-size: cover;
-  background-position: center;
+  background-position: 0 780px;
+  
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -112,32 +118,69 @@
 }
 
 .aligned-text {
+  color: #fff;
+  font-family: Raleway, sans-serif;
   color: #FFF;
   font-family: Raleway;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 115px */
+  line-height: 115px; 
+
   letter-spacing: 30px;
   text-transform: uppercase;
-  text-align: left;
   display: block;
-  z-index: 3;
+  margin-bottom: 20px;
+  text-align: left;
+ 
+  
+  
   padding-left: 50px;
   position: relative;
-  
-  
+  z-index: 1;
 
   
 }
+
+
 .aligned-text_center {
+  color: #fff;
+
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  display: block;
+  
+  text-align: center;
+  position: relative;
  text-align: center;
  padding-right: 50px;
-
+ z-index: 1;
+ 
 }
 .aligned-text_right {
+  color: #fff;
+
+  font-family: Raleway, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 60px;
+  text-transform: uppercase;
+  display: block;
   text-align: right;
-  padding-top: px;
+  
+  margin-right: -10px;
+  padding-top: -70px;
+  position: relative;
+
+  z-index: 1;
+  
   letter-spacing: 60px;
 }
 
@@ -164,7 +207,10 @@
   display: flex;
   justify-content: right;
   gap: 83px;
-
+  align-items: center;
+  margin-top: 117px;
+  margin-bottom: 50px;
+  
   z-index: 2;
 }
 
@@ -178,13 +224,11 @@
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
-  margin-top: 135px;
-  margin-right: 50px;
 
+  margin-right: 50px;
   width: 257px;
   height: 52px;
   flex-shrink: 0;
-
   border: 1px solid #fff;
   z-index: 5;
 }
@@ -192,7 +236,7 @@
 .cover__description-text {
   word-spacing: 17px;
   z-index: 6;
-  margin-top: 147px;
+  
 }
 
 /* Lots */
